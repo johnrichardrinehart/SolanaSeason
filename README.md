@@ -77,7 +77,9 @@ We'll have ad-hoc meetings as necessary.
 ## Where
 
 IP: 45.76.166.33
+
 Username: atkuila
+
 Password (for sudo ops): atkuila
 
 `~/.ssh/config` entry:
