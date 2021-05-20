@@ -80,6 +80,15 @@ IP: 45.76.166.33
 Username: atkuila
 Password (for sudo ops): atkuila
 
+`~/.ssh/config` entry:
+
+```config
+Host atkuila
+     HostName server1.cyberciti.biz
+     User 45.76.166.33
+     IdentityFile ~/.ssh/id_rsa.pub # You may need to change this line
+```
+
 ## When
 
 Until [June 7, 2021](https://solana.com/solanaszn).
