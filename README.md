@@ -15,6 +15,44 @@ Some of their code [is public](https://github.com/duneanalytics), so we might as
 
 Maybe, but not definitely, Dune Analytics is self-hosting [Redash](http://github.com/getredash/redash.git) - the [cororate site](https://redash.io/) offers subscriptions and a managed service.
 
+This idea was taken from the [Solana Season](https://github.com/solana-labs/solana-season/blob/master/ideas.md) GitHub repository. In case the repository goes away, the current specification is this:
+
+<blockquote>
+  
+Solana Data Viz Idea
+A web-based tool through which any user can query all data on the Solana blockchain by using SQL queries. Pre-populated databases with parsed data from Solana blocks. This can all be built on Redash just like Dune (https://redash.io/)
+
+Any user would be able to write a query
+
+free users would have to open source their queries so others could work
+paid users would have the ability to write queries privately
+Automatic hourly updates on the most viewed queries and charts
+
+Paid users could hook an API to any publicly available query and get results
+Dashboarding functionality
+
+Curated queries shared in a visualized form
+The team would write several popularly requested queries to launch this product to expedite the kick-off
+Charts that should be launched with
+Number of daily transactions on Solana
+Number of daily active Solana addresses
+Number of new daily Solana addresses
+Daily volume of SOL transfers
+Daily fees of all SOL/SPL transfers
+Daily median USD cost of SOL&SPL transfer
+Daily USD revenue of Solana stakers
+Daily Solana addresses with balance over $X ($1k, $10k, $100k, $1M, $10M
+Total monthly DEX trading volume on Solana (with DEX splits - Serum&Raydium etc.)
+Number of monthly unique liquidity providers on Serum
+Number of monthly unique trading addresses on Serum
+Number of monthly trades on Serum
+Total number of unique addresses interacting with Solana DeFi apps with splits by each project
+Total stacked daily TVL of all Solana DeFi projects
+Daily outstanding debt of Jet Protocol
+Total daily supply of stablecoins issued on Solana
+  
+</blockquote>
+
 ## Who
 
 1. John Rinehart
