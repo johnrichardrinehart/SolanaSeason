@@ -86,9 +86,9 @@ Password (for sudo ops): `atkuila`
 
 ```config
 Host atkuila
-     HostName server1.cyberciti.biz
-     User 45.76.166.33
-     IdentityFile ~/.ssh/id_rsa.pub # You may need to change this line
+     HostName 45.76.166.33
+     User atkuila
+     IdentityFile ~/.ssh/id_rsa # You may need to change this line
 ```
 
 ## When
