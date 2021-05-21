@@ -12,6 +12,9 @@
         pkgs = i.nixpkgs.legacyPackages.${system};
       in
       rec {
+
+        devShell = import ./shell.nix { inherit pkgs; };
+
         packages = i.flake-utils.lib.flattenTree {
           hello = pkgs.hello;
         };
