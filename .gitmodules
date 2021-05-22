@@ -4,3 +4,6 @@
 [submodule "redash-setup"]
 	path = redash-setup
 	url = https://github.com/getredash/setup.git
+[submodule "solana_query"]
+	path = solana_query
+	url = git@github.com:DieracDelta/solana_query
