@@ -1,3 +1,6 @@
 [submodule "redash"]
 	path = redash
 	url = https://github.com/getredash/redash.git
+[submodule "redash-setup"]
+	path = redash-setup
+	url = https://github.com/getredash/setup.git
