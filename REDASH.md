@@ -16,10 +16,10 @@ stored in `/opt/redash/env` and is literally:
     PYTHONUNBUFFERED=0
     REDASH_LOG_LEVEL=INFO
     REDASH_REDIS_URL=redis://redis:6379/0
-    POSTGRES_PASSWORD=8jLdktRTEzW7N74x7PfBBeRqf1RdqaFm
-    REDASH_COOKIE_SECRET=AqEdt5NlwYIgfBJ5HIKIaCSlWrs2yS9H
-    REDASH_SECRET_KEY=oKbvw7o6IHU9eTmm1kJVRSTPP7tG02Sb
-    REDASH_DATABASE_URL=postgresql://postgres:8jLdktRTEzW7N74x7PfBBeRqf1RdqaFm@postgres/postgres
+    POSTGRES_PASSWORD=3z9a0qlYY5mdenont3U0kQMuhFjXSZZ1
+    REDASH_COOKIE_SECRET=0TaBIgfIXfFOx23EWF0Zx7pHhspKmsfJ
+    REDASH_SECRET_KEY=ttD3LfpPkbmImOiUDhdPHDankPm3OwXy
+    REDASH_DATABASE_URL=postgresql://postgres:3z9a0qlYY5mdenont3U0kQMuhFjXSZZ1@postgres/postgres
 
 ## Helpful Info
 
